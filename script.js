@@ -20,28 +20,3 @@ async function checkWeather(city){
 SearchBtn.addEventListener('click' , function(){
     checkWeather(SearchBox.value) ;
 })
-
-
-// if(data.weather[0].main == "Clouds"){ // weather me ek array return hota hai jisme 2 element hai , 0 me pura information hai isliye yaha weather[0] liya hai 
-    //     weatherimage.src = "clouds.png" ;
-    // }
-    // else if(data.weather[0].main == "Clear"){
-    //     weatherimage.src = "clear.png" ;
-    // }
-    // else if(data.weather[0].main == "Rain"){
-    //     weatherimage.src = "rain.png" ;
-    // }
-    // else if(data.weather[0].main == "Drizzle"){
-    //     weatherimage.src = "Drizzle.png" ;
-    // }
-    // else if(data.weather[0].main == "Mist"){
-    //     weatherimage.src = "mist.png" ;
-    // }
-    // else if(data.weather[0].main == "Snow"){
-    //     weatherimage.src = "snow.png" ;
-    // }
-    // else{
-    //     weatherimage.src = "wind.png" ;
-    // }
-
-    // document.querySelector(".weather").style.display = "block" ;
